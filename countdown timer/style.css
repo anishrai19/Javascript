@@ -1,0 +1,42 @@
+
+
+html{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    height: 100%;
+}
+body{
+    height: 100%;
+}
+/* {
+    font-family: 'Gideon Roman', cursive;
+    box-sizing: border-box;
+    border: 2px double red;
+} */
+body{
+     /* width:100vw; */
+    /* height: 100vh;  */
+
+    background-image: url("./photo03.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#heading{
+     padding: 50px 0px;
+    text-align: center;
+    font-weight: bold;
+    font-size:50px;
+}
+
+.counter-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.big-text{
+    font-size: 60px;
+    margin: 0;
+}
